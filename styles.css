@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
+nav ul li a:hover {
+    background-color: #3e8e41;
+}
+
+.container {
+    display: flex;
+    margin: 20px;
+}
+
+aside {
+    width: 20%;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-right: 1px solid #ccc;
+    text-align: center;
+}
+
+aside img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+main {
+    width: 80%;
+    padding: 20px;
+}
+
+article {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#articles {
+    margin: 20px 0;
+}
+
+.article-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.article-content {
+    flex: 1;
+}
+
+.article-image {
+    width: 150px; /* Atur lebar gambar sesuai kebutuhan */
+    height: auto; /* Memastikan gambar proporsional */
+    margin-left: 15px; /* Memberikan jarak antara konten dan gambar */
+    border-radius: 5px; /* Memberikan sudut melengkung pada gambar */
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
